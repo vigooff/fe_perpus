@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* .btn-primary {
+      @apply py-1.5 px-3 text-center bg-blue-700 rounded-md text-white;
+  } */
+}
+.modal-header .btn-close {
+  display: block !important;
+}
+.book-card {
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@font-face {
+  font-family: 'NewYork';
+  src: url('/font/NewYork.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
