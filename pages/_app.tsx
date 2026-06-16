@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   
   useEffect(() => {
     // Memanggil JS Bootstrap secara dinamis HANYA di sisi client (browser)
+    // @ts-ignore
     import('bootstrap/dist/js/bootstrap.bundle.min.js');
   }, []);
 
