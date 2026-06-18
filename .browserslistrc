@@ -1,0 +1,9 @@
+# Browserslist configuration
+# Konfigurasi ini mendefinisikan browser target untuk transpiling dan polyfilling
+
+# Production browsers
+> 0.5%
+last 2 versions
+Firefox ESR
+not dead
+not IE 11
